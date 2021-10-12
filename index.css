@@ -1,0 +1,134 @@
+.top-section{
+    height: 400px;
+    width: 100%;
+    max-width: 100%;
+    background-image: url(./images/hero-bg-desktop.jpg);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.left-text{
+    color: white;
+}
+.right-form{
+   background-color: white;
+   width: 30%;
+   height: 350px;
+   margin-top: 200px;
+   box-shadow: 10px 10px 20px black;
+   position: relative;
+}
+.middle-section{
+    height: 300px;
+    width: 70%;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-image: url(./patterns/pattern-curve-bottom-right.svg);
+    display: flex;
+}
+
+.bottom-section{
+    background-color: black;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.left-text2{
+    color: white;
+}
+.middle-text2{
+    color: white;
+}
+.right-text2{
+    color: white;
+}
+.middle-pattern{
+    margin-left: 650px
+
+    
+
+}
+
+.name_email{
+    max-width: 100%;
+padding: 10px;
+justify-content: center;
+}
+
+.name_email input{
+    width: 90%;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+     
+}
+
+.date_line{
+    display: flex;
+    padding: 10px;
+    max-width: 100%;
+}
+.date_line input{
+    width: 20%;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+
+.time_line{
+    display: flex;
+    padding: 10px;
+    max-width: 100%;
+}
+.time_line input{
+    width: 20%;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+.time_line select{
+    width: 20%;
+    border: none;
+    border-bottom: 2px solid gray;
+    text-align: center;
+}
+
+.select_people{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    
+    border-bottom: 2px solid gray;
+}
+
+.select_people button{
+    background-color: white;
+    border: none;
+    padding: 10px;
+}
+.select_people input{
+    border: none;
+    text-align: center;
+
+}
+
+.reservations{
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.reservations button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    border:none
+}
